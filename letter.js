@@ -12,5 +12,5 @@ setTimeout(() => {
         shapes: ['circle'], // Hearts aren't natively supported, but you can use images for that.
         origin: { y: 0.6 }
     });
-}, 4000); // Delay confetti for a smooth effect
+}, 12000); // Delay confetti for a smooth effect
 ;
