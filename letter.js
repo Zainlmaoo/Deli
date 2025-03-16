@@ -14,3 +14,9 @@ setTimeout(() => {
     });
 }, 12000); // Delay confetti for a smooth effect
 ;
+document.addEventListener("click", function() {
+    let audio = document.getElementById("song");
+    audio.muted = false;
+    audio.play();
+}, { once: true });  // Runs only once
+
